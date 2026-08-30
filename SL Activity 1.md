@@ -37,7 +37,7 @@ Agile methodology and DevOps are two complementary practices that bring efficien
 | Agile mainly focuses on collaboration, flexibility, continuous feedback, and adapting to changing requirements during development. | DevOps mainly focuses on automation, continuous integration, continuous delivery, deployment, and monitoring throughout the software lifecycle. |
 | Agile improves the way development teams plan, develop, test, and modify software. | DevOps extends this process by improving how software is developed, deployed, operated, and maintained in production. |
 
-## Case Study of Jira and Asana in Real World Projects
+## 2. Case Study of Jira and Asana in Real World Projects
 
 ### Jira
 Jira is a popular project management and issue-tracking tool widely used in software development and testing. It helps teams manage tasks, monitor project progress, and streamline workflows efficiently.
@@ -63,7 +63,7 @@ Different organizations and companies use different apps based on their needs. S
 #### Hybrid:
 -  Many firms such as Zoom use both by bridging them together. Technical teams work in Jira while business groups operate in Asana, utilizing a two-way sync for descriptions, comments, and statuses so both sides stay aligned without tool switching.
 
-## Writing Effective User Stories
+## 3. Writing Effective User Storiesand Acceptance Criteria
 
 ### What are User Stories
 A user story is the smallest unit of work in an Agile framework. It’s an end goal, not a feature, expressed from the software user’s perspective.
@@ -112,3 +112,93 @@ As a customer, I want to reset my password, so that I can regain access to my ac
 * The password-reset link expires after a defined period.
 * The customer can create a new password using the link.
 * The customer can log in successfully using the new password.
+
+## 4. Advanced requirement elicitation techniques (interviews, ethnography):
+Requirements elicitation is the process of gathering and defining the requirements for a software system. The goal of requirements elicitation is to ensure that the software development process is based on a clear and comprehensive understanding of the customer's needs and requirements.
+
+The process of investigating and learning about a system's requirements from users, clients, and other stakeholders is known as requirements elicitation. Requirements elicitation in software engineering is perhaps the most difficult, most error-prone, and most communication-intensive software development.
+
+- Requirement Elicitation can be successful only through an effective customer-developer partnership. It is needed to know what the users require. 
+- Requirements elicitation involves the identification, collection, analysis, and refinement of the requirements for a software system.
+- Requirement Elicitation is a critical part of the software development life cycle and is typically performed at the beginning of the project.
+- Requirements elicitation involves stakeholders from different areas of the organization, including business owners, end-users, and technical experts.
+- The output of the requirements elicitation process is a set of clear, concise, and well-defined requirements that serve as the basis for the design and development of the software system.
+- Requirements elicitation is difficult because just questioning users and customers about system needs may not collect all relevant requirements, particularly for safety and dependability.
+- Interviews, surveys, user observation, workshops, brainstorming, use cases, role-playing, and prototyping are all methods for eliciting requirements.
+
+### Interviews:
+The objective of conducting an interview is to understand the customer's expectations of the software. 
+It is impossible to interview every stakeholder hence representatives from groups are selected based on their expertise and credibility. Interviews may be open-ended or structured. 
+
+In open-ended interviews, there is no pre-set agenda. Context-free questions may be asked to understand the problem.
+In a structured interview, an agenda of fairly open questions is prepared. Sometimes a proper questionnaire is designed for the interview.
+
+### Ethnography:
+Ethnography is a requirements elicitation technique in which the software engineer observes users in their real working environment to understand how they actually perform their tasks. Instead of relying only on interviews or questionnaires, the analyst watches users, studies their interactions, tools, workflows, and problems, and sometimes participates in their activities. The aim is to discover requirements that users may not be able to articulate themselves.
+
+For example, suppose a company wants software for hospital nurses. An interview might tell the analyst that nurses "record patient information in the system". Through ethnographic observation, the analyst may discover that nurses actually write information on paper first, ask other nurses for missing information, switch between several systems, and update records only during quieter periods. These observations can reveal practical requirements such as quick data entry, offline/temporary recording, easy access to patient information, and integration between systems.
+
+## 5. Requirement Traceability Matrix:
+A Requirements Traceability Matrix (RTM) is a document used in software testing to ensure that all requirements are properly mapped with corresponding test cases. It helps track the relationship between requirements and test activities throughout the development lifecycle. RTM ensures complete test coverage and improves software quality.
+
+* Maps requirements to test cases to ensure full coverage
+* Helps track testing progress and requirement validation
+* Reduces chances of missing or untested requirements
+
+A Basic Requirement Traceability Matrix is a simple table used to map requirements with test cases
+
+![Requirement Traceability Matrix](https://media.geeksforgeeks.org/wp-content/uploads/20260611180138435411/file.webp)
+
+
+## 6. Tools for Requirement Management:
+
+The Requirement Management Process is the process of managing changing requirements during the requirements engineering process and system development, where the new requirements emerge as a system is being developed and after it has gone into use.
+
+During this process, one must keep track of individual requirements and maintain links between dependent requirements so that one can assess the impact of requirements changes along with establishing a formal process for making change proposals and linking these to system requirements. 
+
+**Requirement Management Tools**
+
+Requirement Management Tools are software applications used to capture, organise, document, track, prioritise, and manage software requirements throughout the development lifecycle. They help teams maintain traceability between requirements, design, implementation, and testing, while also managing changes and approvals.
+
+Examples of Requirement Management Tools
+* Jira – Requirement tracking, issue management, and project management.
+* IBM Engineering Requirements Management DOORS Next – Requirements management and traceability.
+* Azure DevOps – Requirements, work-item tracking, and development management.
+* Polarion – Requirements management, traceability, and compliance.
+* Jama Connect – Requirements, risk, and test management.
+* ReqView – Requirements documentation and traceability.
+* Helix ALM – Requirements, test, and issue management.
+* Tuleap – Requirements and agile project management.
+* Codebeamer – Requirements, risk, and application lifecycle management.
+* Confluence – Documentation and collaborative requirements management.
+
+**IBM DOORS**
+
+**IBM DOORS (Dynamic Object-Oriented Requirements System)** is a **requirements management tool** developed by IBM. It is used to capture, organise, analyse, track, and maintain requirements throughout the software or systems development lifecycle.
+
+It provides **requirements traceability**, allowing teams to link requirements with design elements, implementation, and test cases. It also supports **version control, change management, impact analysis, and collaboration**, making it particularly useful for large and complex projects.
+
+#### Key Features
+
+1. **Requirements Management** – Create, organise, and maintain requirements.
+2. **Traceability** – Link requirements to design, development, and testing.
+3. **Version Control** – Track changes made to requirements.
+4. **Change Management** – Manage and assess changes to requirements.
+5. **Impact Analysis** – Identify which parts of a project may be affected by a requirement change.
+6. **Collaboration** – Allows teams to work together on requirements.
+7. **Reporting** – Generate reports and traceability matrices.
+8. **Compliance** – Helps maintain documentation required for regulated projects.
+
+#### Common Uses
+
+- Software and systems engineering
+- Aerospace and defence
+- Automotive systems
+- Telecommunications
+- Safety-critical systems
+- Large enterprise projects
+
+## 7. Conclusion:
+The study of Agile, DevOps, project management tools, user stories, requirements elicitation, and requirements management provides a comprehensive understanding of modern software development practices. Agile promotes flexibility and continuous feedback, while DevOps improves collaboration and automation throughout the software lifecycle. Tools such as Jira, Asana, and IBM DOORS help teams organise work and manage requirements effectively.
+
+Techniques such as interviews and ethnography help identify user needs, while user stories, acceptance criteria, and Requirements Traceability Matrices (RTMs) ensure that these requirements are clearly defined, validated, and traceable. Overall, effective requirements management and the appropriate use of development tools contribute to better collaboration, improved software quality, and successful project delivery.
